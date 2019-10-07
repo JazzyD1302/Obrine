@@ -1,8 +1,21 @@
 <div class="header">
-  <app-header></app-header>
+        <div id="branding">
+            <h1><span id="ob">OBrien</span> Technologies</h1>
+       </div>
+     <!--Navigation bar in header-->
+     <ul class="notnav">
+        <li><a routerLink="/">Home</a></li>
+        <li><a routerLink="/About">About</a></li>
+        <li><a routerLink="/Pc_Builds">Pc Builds</a></li>
+        <li><a routerLink="/Photography">Photography</a></li>
+        <li><a routerLink="/Graphic_Design">Graphic Design</a></li>
+        <li><a routerLink="/Portfolio">Portfolio</a></li>
+        </ul>
 </div>
 
+<div class="content">
 <router-outlet></router-outlet>
+</div>
 
 <div class="footer">
 <app-footer></app-footer>
