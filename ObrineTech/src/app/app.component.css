@@ -10,7 +10,7 @@
 }
 
 .header-border{
-    height:3px;
+    height:5px;
     background: linear-gradient(to right, #e8491d 55%,#eeff00 56%,#e8491d 57%);
 	background-size: 350% 200%;
 	animation: gradientBG 8s ease infinite;
@@ -52,7 +52,8 @@
     padding-top: 0%;
 }
 
-.notnav li:hover{
+.notnav li a:hover{
+    transition: color 0.5s ease;
     color: #e8491d;
     font-weight: bold;
 }
