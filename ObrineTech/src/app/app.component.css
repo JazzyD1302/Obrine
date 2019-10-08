@@ -1,10 +1,30 @@
 .header{
     background:#35424a;
     color:#ffffff;
-    /*min-height: 70px;*/
-    border-bottom: #e8491d 3px solid;
+    /*min-height: 70px;
+    
+    #e8491d*/
+    /* border-bottom:  3px solid;
+    border-image: linear-gradient(45deg, #e8491d, rgb(250,224,66))1; */
     padding:2% 0 1% 5%;
 }
+
+.header-border{
+    height:3px;
+    background: linear-gradient(to right, #e8491d 55%,#eeff00 56%,#e8491d 57%);
+	background-size: 350% 200%;
+	animation: gradientBG 8s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position:100% 25%;
+	}
+	100% {
+		background-position: 25% -56%;
+	}
+}
+
 
 .header a{
     color: #ffffff;
